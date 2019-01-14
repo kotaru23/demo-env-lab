@@ -10,6 +10,7 @@ RUN pip --no-cache-dir install \
     imbalanced-learn \
     tqdm \
     ipdb \
+    pandas \
     xgboost
 
 CMD ["python3"]
