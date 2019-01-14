@@ -9,4 +9,4 @@ RUN pip --no-cache-dir install \
     ipdb \
     xgboost
 
-CMD {"python3"}
+CMD ["python3"]
