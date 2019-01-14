@@ -1,10 +1,8 @@
-FROM python:3.7.2-alpine3.8
+FROM python:3.7.2-slim-stretch
 MAINTAINER kotaru23
 
-RUN apk --update --no-cache add \
-    build-base \
-    gcc \
-    git
+RUN apt-get update && apt-get upgrade -y && apt-get install \
+    build-essential
 RUN pip --no-cache-dir install \
     numpy \
     scipy \
