@@ -8,6 +8,7 @@ RUN pip --no-cache-dir install \
     scipy \
     scikit-learn \
     imbalanced-learn \
+    joblib \
     tqdm \
     ipdb \
     pandas \
